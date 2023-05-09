@@ -56,6 +56,7 @@ int main()
         {
         BasicPay=40*12;
         OverTimePay = ((HoursWorked-40)*12*1.5);
+
         }
         TotalPay=(BasicPay+OverTimePay);
 
