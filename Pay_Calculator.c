@@ -85,14 +85,14 @@ int main()
     NetPay=(TotalPay-TotalTax);
 
     printf("Total Hours Worked : %d\n", HoursWorked);
-    printf("Basic Pay : %f\n", BasicPay);
-    printf("Over Time Pay : %f\n", OverTimePay);
-    printf("Total Pay : %f\n", TotalPay);
-    printf("Tax Band 1 : %f\n", Tax1);
-    printf("Tax Band 2 : %f\n", Tax2);
-    printf("Tax Band 3 : %f\n", Tax3);
-    printf("Total Tax Charged: %f\n", TotalTax);
-    printf("Net Pay: %f\n", NetPay);
+    printf("Basic Pay : %.2f\n", BasicPay);
+    printf("Over Time Pay : %.2f\n", OverTimePay);
+    printf("Total Pay : %.2f\n", TotalPay);
+    printf("Tax Band 1 : %.2f\n", Tax1);
+    printf("Tax Band 2 : %.2f\n", Tax2);
+    printf("Tax Band 3 : %.2f\n", Tax3);
+    printf("Total Tax Charged: %.2f\n", TotalTax);
+    printf("Net Pay: %.2f\n", NetPay);
 
 
 
